@@ -12,9 +12,15 @@ Użytkownik może ustawić interwały czasowe, w których będzie informowany o 
    ADMIN_EMAIL = '' -> adres email, na który zostanie wysłany wynik porównania skanów
    Pomocny przy generowaniu tymczasowego hasła będzie poradnik pokazujący w jaki sposób włączyć uwierzytelnienie dwuetapowe:
    https://support.google.com/accounts/answer/185839?hl=pl&co=GENIE.Platform%3DDesktop
-2. Uzupełnij adresy IP, które chcesz przeskanować (hosty muszą się znajdować w tej samej podsieci), zapisz zmiany i zamknij plik.
-3. Wykonaj w terminalu skan bazowy za  
-
+2. Uzupełnij adresy IP (linia nr 15), które chcesz przeskanować (hosty muszą się znajdować w tej samej podsieci), zapisz zmiany i zamknij plik.
+3. Wykonaj w terminalu skan bazowy (reference.xml) za pomocą komendy:
+   $ nmap -oX reference.xml <IP_address_1> <IP_address_2> ...
+     Adresy muszą być zgodne z adresami wpisanymi do skryptu.
+     Dodatkowo pliki main.py i reference.xml powinny znajdować się w tym samym miejscu w systemie plików maszyny, np. na pulpicie
+4. Otwórz narzędzie 'Cron' w celu wyznaczenia interwałów otrzymywanych powiadomień, za pomocą komendy:
+   $ crontab -e   
+   Pomocny przy tym zadaniu na pewno będzie link:
+   https://crontab.guru/#01_13_*_*_*
 
 
 
