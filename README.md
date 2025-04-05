@@ -8,7 +8,7 @@ Użytkownik może ustawić interwały czasowe, w których będzie informowany o 
 *** JAK TEGO UŻYWAĆ?
 Na początu należy pobrać skrypt na swoją maszynę oraz uzupełnić zmienne globalne, które znajdują się na samej górze pliku.
 <p align="right">
-  <img src="file:///C:/Users/matim/Desktop/obrazek.PNG" alt="Opis obrazka" width="300"/>
+  <img src="https://github.com/matlowski/open-port-monitoring-system/issues/1#issue-2974436611" alt="Opis obrazka" width="300"/>
 </p>
 
 
