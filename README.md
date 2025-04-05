@@ -7,7 +7,7 @@ Użytkownik może ustawić interwały czasowe, w których będzie informowany o 
 
 *** JAK TEGO UŻYWAĆ?
 Na początu należy pobrać skrypt na swoją maszynę oraz uzupełnić zmienne globalne, które znajdują się na samej górze pliku.
-<p align="right">
+<p align="left">
   <img src="https://private-user-images.githubusercontent.com/180983359/430655788-0bb8f338-976d-484d-a0bb-53cf84faa391.PNG?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3NDM4Nzk5MDMsIm5iZiI6MTc0Mzg3OTYwMywicGF0aCI6Ii8xODA5ODMzNTkvNDMwNjU1Nzg4LTBiYjhmMzM4LTk3NmQtNDg0ZC1hMGJiLTUzY2Y4NGZhYTM5MS5QTkc_WC1BbXotQWxnb3JpdGhtPUFXUzQtSE1BQy1TSEEyNTYmWC1BbXotQ3JlZGVudGlhbD1BS0lBVkNPRFlMU0E1M1BRSzRaQSUyRjIwMjUwNDA1JTJGdXMtZWFzdC0xJTJGczMlMkZhd3M0X3JlcXVlc3QmWC1BbXotRGF0ZT0yMDI1MDQwNVQxOTAwMDNaJlgtQW16LUV4cGlyZXM9MzAwJlgtQW16LVNpZ25hdHVyZT0yYjUxNDUzZjE0NjIwYmM5YWJhYjkxZjg0MTQxNWRkMTM3Njc5M2U1NmU2MjZhYzMyN2FkZDNiNDFjZDIxMDcxJlgtQW16LVNpZ25lZEhlYWRlcnM9aG9zdCJ9.hfQv2RyFPXejWrqzfPzTIz-j3mH8LnuzHQPCJSDVu50" alt="Opis obrazka" width="300"/>
 </p>
 
