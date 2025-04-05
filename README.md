@@ -8,7 +8,7 @@ Użytkownik może ustawić interwały czasowe, w których będzie informowany o 
 *** JAK TEGO UŻYWAĆ?
 Na początu należy pobrać skrypt na swoją maszynę oraz uzupełnić zmienne globalne, które znajdują się na samej górze pliku.
 <p align="right">
-  <img src="![image](https://github.com/user-attachments/assets/96e432cb-cc39-4f6a-b9b9-3c3e0830b182)" alt="Opis obrazka" width="300"/>
+  <img src="file:///C:/Users/matim/Desktop/obrazek.PNG" alt="Opis obrazka" width="300"/>
 </p>
 
 
