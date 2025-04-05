@@ -20,7 +20,22 @@ Użytkownik może ustawić interwały czasowe, w których będzie informowany o 
 4. Otwórz narzędzie 'Cron' w celu wyznaczenia interwałów otrzymywanych powiadomień, za pomocą komendy:
    $ crontab -e   
    Pomocny przy tym zadaniu na pewno będzie link:
-   https://crontab.guru/#01_13_*_*_*
+   https://crontab.guru/
+
+*** PRZYKŁADOWA KONFIGURACJA I EFEKTY
+W celu zademonstrowania działania skryptu utworzono dwie maszyny wirtuale z zainstalowanym systemem operacyjnym Kali Linux oraz umieszczono je w tej samej sieci NAT o adresie 10.0.2.0/24:
+* maszyna nr 1 - 10.0.2.10
+* maszyna nr 2 - 10.0.2.15
+Na maszynę nr 1 pobrano skrypt, uzupełniowo wymagane zmienne globalne oraz linię 15 pliku main.py. Następnie uruchomiono usługi SSH (port 22) oraz SAMBA (2 porty samby) i wykonano skan referencyjny:
+* przykładowa linia 15:
+  fota
+* skan referencyjny:
+  $ nmap -oX reference.xml 10.0.2.10 10.0.2.15
+Kolejnym krokiem było ustawienie odpowiedniego interwału w Cron'ie:
+* fotka Crona
+Następnie na maszynie nr 1 zamknięto usługę SSH (port 22) oraz otworzono usługi FTP (port xxx) i HTTP (port 80). Na maszynie nr 2 otworzono usługi SSH (port 22) i HTTP(port 80)
+
+Output otrzymany na maila:  
 
 
 
@@ -28,18 +43,3 @@ Użytkownik może ustawić interwały czasowe, w których będzie informowany o 
 <p align="left">
   <img src="" alt="Opis obrazka" width="300"/>
 </p>
-  
-
-
-
-Pomocny przy tej czynności może okazać się poniższy link, ponieważ szczegółowo wyjaśnia w jaki sposób wygenerować hasło do aplikacji  
-
-
-Kolejnym krokiem 
-
-Dla wygody użytkowania skrypt oraz skan referencyjny powinny znajdować się w tym samym miejscu w systemie. 
-
-Na początku należy wykonać ręcznie skan referencyjny, który będzie stanowił odnośnik dla każdego następnego skanu. Aby tego dokonać należy skorzystać z komendy:
-
-
-*** PRZYKŁADOWA KONFIGURACJA I EFEKTY
