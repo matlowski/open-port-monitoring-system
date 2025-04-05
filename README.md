@@ -6,11 +6,23 @@ Skrypt pozwala na monitorowanie dowolnej liczby hostów znajdujących się w tej
 Użytkownik może ustawić interwały czasowe, w których będzie informowany o wykrytych zmianach w stanie portów za pośrednictwem wiadomości e-mail.   
 
 *** JAK TEGO UŻYWAĆ?
-Na początu należy pobrać skrypt na swoją maszynę oraz uzupełnić zmienne globalne, które znajdują się na samej górze pliku.
-<p align="left">
-  <img src="https://private-user-images.githubusercontent.com/180983359/430655788-0bb8f338-976d-484d-a0bb-53cf84faa391.PNG?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3NDM4Nzk5MDMsIm5iZiI6MTc0Mzg3OTYwMywicGF0aCI6Ii8xODA5ODMzNTkvNDMwNjU1Nzg4LTBiYjhmMzM4LTk3NmQtNDg0ZC1hMGJiLTUzY2Y4NGZhYTM5MS5QTkc_WC1BbXotQWxnb3JpdGhtPUFXUzQtSE1BQy1TSEEyNTYmWC1BbXotQ3JlZGVudGlhbD1BS0lBVkNPRFlMU0E1M1BRSzRaQSUyRjIwMjUwNDA1JTJGdXMtZWFzdC0xJTJGczMlMkZhd3M0X3JlcXVlc3QmWC1BbXotRGF0ZT0yMDI1MDQwNVQxOTAwMDNaJlgtQW16LUV4cGlyZXM9MzAwJlgtQW16LVNpZ25hdHVyZT0yYjUxNDUzZjE0NjIwYmM5YWJhYjkxZjg0MTQxNWRkMTM3Njc5M2U1NmU2MjZhYzMyN2FkZDNiNDFjZDIxMDcxJlgtQW16LVNpZ25lZEhlYWRlcnM9aG9zdCJ9.hfQv2RyFPXejWrqzfPzTIz-j3mH8LnuzHQPCJSDVu50" alt="Opis obrazka" width="300"/>
-</p>
+1. Pobierz skrypt na swoją maszynę oraz otwórz go w dowolnym edytorze (np. nano) i uzupełnij zmienne globalne, które znajdują się na samej górze pliku:
+   SMPT_EMAIL = '' -> adres email, z którego wysyłany jest wynik porównania skanów
+   SMPT_PASSWORD = '' -> tymczasowe hasło do aplikacji generowane w gmail'u
+   ADMIN_EMAIL = '' -> adres email, na który zostanie wysłany wynik porównania skanów
+   Pomocny przy generowaniu tymczasowego hasła będzie poradnik pokazujący w jaki sposób włączyć uwierzytelnienie dwuetapowe:
+   https://support.google.com/accounts/answer/185839?hl=pl&co=GENIE.Platform%3DDesktop
+2. Uzupełnij adresy IP, które chcesz przeskanować (hosty muszą się znajdować w tej samej podsieci), zapisz zmiany i zamknij plik.
+3. Wykonaj w terminalu skan bazowy za  
 
+
+
+
+
+<p align="left">
+  <img src="" alt="Opis obrazka" width="300"/>
+</p>
+  
 
 
 
