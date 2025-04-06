@@ -17,7 +17,7 @@ The user can configure time intervals at which they will receive email notificat
    ```
    $ nmap -oX reference.xml <IP_address_1> <IP_address_2> ...
    ```
-   The addresses must match the ones provided in the script.
+   The addresses must match the ones provided in the script. \
    Additionally, the files main.py and reference.xml should be located in the same directory on your machine (e.g., on the desktop).
 6. Otwórz narzędzie 'Cron' w celu wyznaczenia interwałów czasowych otrzymywanych powiadomień, za pomocą komendy:
    $ crontab -e   
