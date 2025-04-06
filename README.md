@@ -9,7 +9,7 @@ The user can configure time intervals at which they will receive email notificat
    ```
    SMPT_EMAIL = ''      # email address from which the scan comparison result is sent
    SMPT_PASSWORD = ''   # temporary app password generated in Gmail 
-   ADMIN_EMAIL = '' ->  # email address to which the scan comparison result is sent
+   ADMIN_EMAIL = ''     # email address to which the scan comparison result is sent
    ```
    A guide showing how to enable two-step verification will be helpful for generating [the temporary app password](https://support.google.com/accounts/answer/185839?hl=pl&co=GENIE.Platform%3DDesktop).
 3. Fill in the IP addresses (line 15) of the hosts you want to scan (they must be in the same subnet). Save the changes and close the file.
