@@ -28,7 +28,7 @@ The user can configure time intervals at which they will receive email notificat
 ## EXAMPLE USAGE
 To demonstrate how the script works, two virtual machines with Kali Linux installed were created and placed in the same NAT network with the address 10.0.2.0/24:
 * machine # 1 - 10.0.2.10
-* machine # 2 - 10.0.2.15 \
+* machine # 2 - 10.0.2.15 
 
 The script was downloaded to machine #1, the required global variables and line 15 of the main.py file were filled in. Then, SSH (port 22) and SAMBA (ports 139 and 445) services were started, and a reference scan was performed:
 * example line 15:
