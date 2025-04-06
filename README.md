@@ -11,13 +11,15 @@ The user can configure time intervals at which they will receive email notificat
    SMPT_PASSWORD = ''   # temporary app password generated in Gmail 
    ADMIN_EMAIL = '' ->  # email address to which the scan comparison result is sent
    ```
-   A guide showing how to enable two-step verification will be helpful for generating [the temporary app password](https://support.google.com/accounts/answer/185839?hl=pl&co=GENIE.Platform%3DDesktop)
-3. Uzupełnij adresy IP (linia nr 15), które chcesz przeskanować (hosty muszą się znajdować w tej samej podsieci), następnie zapisz zmiany i zamknij plik.
-4. Wykonaj w terminalu skan bazowy (reference.xml) za pomocą komendy:
+   A guide showing how to enable two-step verification will be helpful for generating [the temporary app password](https://support.google.com/accounts/answer/185839?hl=pl&co=GENIE.Platform%3DDesktop).
+3. Fill in the IP addresses (line 15) of the hosts you want to scan (they must be in the same subnet). Save the changes and close the file.
+4. Run the initial (reference.xml) scan using the terminal with the command:
+   ```
    $ nmap -oX reference.xml <IP_address_1> <IP_address_2> ...
-     Adresy muszą być zgodne z adresami wpisanymi do skryptu.
-     Dodatkowo pliki 'main.py' i 'reference.xml' powinny znajdować się w tym samym miejscu w systemie plików maszyny, np. na pulpicie
-5. Otwórz narzędzie 'Cron' w celu wyznaczenia interwałów czasowych otrzymywanych powiadomień, za pomocą komendy:
+   ```
+   The addresses must match the ones provided in the script.
+   Additionally, the files main.py and reference.xml should be located in the same directory on your machine (e.g., on the desktop).
+6. Otwórz narzędzie 'Cron' w celu wyznaczenia interwałów czasowych otrzymywanych powiadomień, za pomocą komendy:
    $ crontab -e   
    Pomocny przy tym zadaniu na pewno będzie link:
    https://crontab.guru/
