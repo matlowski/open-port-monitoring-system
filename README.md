@@ -5,11 +5,11 @@ The script enables monitoring of any number of hosts located within the same sub
 The user can configure time intervals at which they will receive email notifications about any detected changes in port states. 
 
 ## HOW TO USE IT?
-1. Download the script to your machine and open it in any text editor (e.g., nano). Then fill in the global variables located at the top of the file: \
+1. Download the script to your machine and open it in any text editor (e.g., nano). Then fill in the global variables located at the top of the file:
    ```
-   SMPT_EMAIL = '' -> adres email, z którego wysyłany jest wynik porównania skanów
-   SMPT_PASSWORD = '' -> tymczasowe hasło do aplikacji generowane w gmail'u
-   ADMIN_EMAIL = '' -> adres email, na który zostanie wysłany wynik porównania skanów
+   SMPT_EMAIL = ''      # email address from which the scan comparison result is sent
+   SMPT_PASSWORD = ''   # temporary app password generated in Gmail 
+   ADMIN_EMAIL = '' ->  # email address to which the scan comparison result is sent
    ```
    Pomocny przy generowaniu tymczasowego hasła będzie poradnik pokazujący w jaki sposób włączyć uwierzytelnienie dwuetapowe:
    https://support.google.com/accounts/answer/185839?hl=pl&co=GENIE.Platform%3DDesktop
