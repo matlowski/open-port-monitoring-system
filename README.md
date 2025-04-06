@@ -34,7 +34,9 @@ Na maszynę nr 1 pobrano skrypt, uzupełniowo wymagane zmienne globalne oraz lin
 * skan referencyjny:
   $ nmap -oX reference.xml 10.0.2.10 10.0.2.15
 Kolejnym krokiem było ustawienie odpowiedniego interwału w Cron'ie:
-* fotka Crona
+<p align="left">
+  <img src="" alt="Opis obrazka" width="300"/>
+</p>
 Następnie na maszynie nr 1 zamknięto usługę SSH (port 22) oraz otworzono usługi FTP (port 21) i HTTP (port 80). Na maszynie nr 2 otworzono usługi SSH (port 22) i HTTP (port 80)
 
 Output otrzymany na maila:  
