@@ -2,9 +2,9 @@
 ## WHAT IT IS?
 This script allows for monitoring open network ports with a feature that compares them against a reference set. The system is designed in the style of the popular XML comparison tool — ndiff — but has been enhanced with an additional functionality: a notification system. \
 The script enables monitoring of any number of hosts located within the same subnet. It operates by comparing two XML files — a reference file and a current one — both generated from scans performed using the nmap tool. \
-The user can configure time intervals at which they will receive email notifications about any detected changes in port states. \
+The user can configure time intervals at which they will receive email notifications about any detected changes in port states. 
 
-*** JAK TEGO UŻYWAĆ?
+## HOW TO USE IT?
 1. Pobierz skrypt na swoją maszynę oraz otwórz go w dowolnym edytorze (np. nano) i uzupełnij zmienne globalne, które znajdują się na samej górze pliku:
    SMPT_EMAIL = '' -> adres email, z którego wysyłany jest wynik porównania skanów
    SMPT_PASSWORD = '' -> tymczasowe hasło do aplikacji generowane w gmail'u
