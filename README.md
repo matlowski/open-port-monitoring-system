@@ -43,7 +43,7 @@ Next, an appropriate time interval was set using Cron:
   <p align="left">
     <img src="https://private-user-images.githubusercontent.com/180983359/430695093-40cb0ab3-494a-4f92-96c9-633fbed543f1.PNG?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3NDM5Mzg0MTcsIm5iZiI6MTc0MzkzODExNywicGF0aCI6Ii8xODA5ODMzNTkvNDMwNjk1MDkzLTQwY2IwYWIzLTQ5NGEtNGY5Mi05NmM5LTYzM2ZiZWQ1NDNmMS5QTkc_WC1BbXotQWxnb3JpdGhtPUFXUzQtSE1BQy1TSEEyNTYmWC1BbXotQ3JlZGVudGlhbD1BS0lBVkNPRFlMU0E1M1BRSzRaQSUyRjIwMjUwNDA2JTJGdXMtZWFzdC0xJTJGczMlMkZhd3M0X3JlcXVlc3QmWC1BbXotRGF0ZT0yMDI1MDQwNlQxMTE1MTdaJlgtQW16LUV4cGlyZXM9MzAwJlgtQW16LVNpZ25hdHVyZT1hYjI2ZDExYzVjMGZiNjk1ODhlZjY0ZDE2NjIwOTg2Y2ExNWRiNjM3Y2Q2MjRjNWRjN2RlZGQ2ZjY1NjVlZjkwJlgtQW16LVNpZ25lZEhlYWRlcnM9aG9zdCJ9.UNp0KbqvfWuVNRbSZqfO53WUqaKVFPaCf212nV9ZXTY" alt="Opis obrazka" width="700"/>
   </p>
-After that, on machine #1, the SSH service (port 22) was shut down and FTP (port 21) and HTTP (port 80) services were started. On machine #2, SSH (port 22) and HTTP (port 80) services were started. \
+After that, on machine #1, the SSH service (port 22) was shut down and FTP (port 21) and HTTP (port 80) services were started. On machine #2, SSH (port 22) and HTTP (port 80) services were started. 
 
 Email output received:  
 <p align="left">
