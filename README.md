@@ -29,7 +29,7 @@ W celu zademonstrowania działania skryptu utworzono dwie maszyny wirtuale z zai
 Na maszynę nr 1 pobrano skrypt, uzupełniowo wymagane zmienne globalne oraz linię 15 pliku main.py. Następnie uruchomiono usługi SSH (port 22) oraz SAMBA (port 139, port 445) i wykonano skan referencyjny:
 * przykładowa linia 15:
 <p align="left">
-  <img src="" alt="Opis obrazka" width="300"/>
+  <img src="https://github.com/matlowski/open-port-monitoring-system/issues/2#issue-2974839931" alt="Opis obrazka" width="300"/>
 </p>
 * skan referencyjny:
   $ nmap -oX reference.xml 10.0.2.10 10.0.2.15
