@@ -1,9 +1,7 @@
 
 ## WHAT IT IS?
 This script allows for monitoring open network ports with a feature that compares them against a reference set. The system is designed in the style of the popular XML comparison tool — ndiff — but has been enhanced with an additional functionality: a notification system.
-
 The script enables monitoring of any number of hosts located within the same subnet. It operates by comparing two XML files — a reference file and a current one — both generated from scans performed using the nmap tool.
-
 The user can configure time intervals at which they will receive email notifications about any detected changes in port states.
 
 *** JAK TEGO UŻYWAĆ?
