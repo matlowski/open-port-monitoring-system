@@ -19,12 +19,17 @@ The user can configure time intervals at which they will receive email notificat
    ```
    The addresses must match the ones provided in the script. \
    Additionally, the files main.py and reference.xml should be located in the same directory on your machine (e.g., on the desktop).
-6. Otwórz narzędzie 'Cron' w celu wyznaczenia interwałów czasowych otrzymywanych powiadomień, za pomocą komendy:
-   $ crontab -e   
-   Pomocny przy tym zadaniu na pewno będzie link:
-   https://crontab.guru/
+6. Open the Cron tool to set time intervals for receiving notifications by running the command:
+   ```
+   $ crontab -e
+   ```   
+   A very helpful resource for this task is that [link](https://crontab.guru/).
+   
 
 
+
+\
+\
 
 *** PRZYKŁADOWA KONFIGURACJA I EFEKTY
 W celu zademonstrowania działania skryptu utworzono dwie maszyny wirtuale z zainstalowanym systemem operacyjnym Kali Linux oraz umieszczono je w tej samej sieci NAT o adresie 10.0.2.0/24:
