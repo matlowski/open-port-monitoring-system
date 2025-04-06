@@ -41,6 +41,6 @@ Następnie na maszynie nr 1 zamknięto usługę SSH (port 22) oraz otworzono us�
 
 Output otrzymany na maila:  
 <p align="left">
-  <img src="" alt="Opis obrazka" width="300"/>
+  <img src="https://private-user-images.githubusercontent.com/180983359/430695863-39e45b93-9149-41e5-9115-a5be33891777.PNG?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3NDM5MzU3NTMsIm5iZiI6MTc0MzkzNTQ1MywicGF0aCI6Ii8xODA5ODMzNTkvNDMwNjk1ODYzLTM5ZTQ1YjkzLTkxNDktNDFlNS05MTE1LWE1YmUzMzg5MTc3Ny5QTkc_WC1BbXotQWxnb3JpdGhtPUFXUzQtSE1BQy1TSEEyNTYmWC1BbXotQ3JlZGVudGlhbD1BS0lBVkNPRFlMU0E1M1BRSzRaQSUyRjIwMjUwNDA2JTJGdXMtZWFzdC0xJTJGczMlMkZhd3M0X3JlcXVlc3QmWC1BbXotRGF0ZT0yMDI1MDQwNlQxMDMwNTNaJlgtQW16LUV4cGlyZXM9MzAwJlgtQW16LVNpZ25hdHVyZT1hMDdiMGYzNjE1NWUzY2FmNjMyMTIwODkwMGQyY2ZjYmE3MzliM2NiOTIyYjM0MDNhNDFiMDY3YzEwMzU2ZDExJlgtQW16LVNpZ25lZEhlYWRlcnM9aG9zdCJ9.C9qdK7J2TYhMkBPq4LZxwuBPNv6jOvmiArkuQguunW4" alt="Opis obrazka" width="300"/>
 </p>
 
