@@ -35,7 +35,7 @@ Na maszynę nr 1 pobrano skrypt, uzupełniowo wymagane zmienne globalne oraz lin
   $ nmap -oX reference.xml 10.0.2.10 10.0.2.15
 Kolejnym krokiem było ustawienie odpowiedniego interwału w Cron'ie:
   <p align="left">
-    <img src="" alt="Opis obrazka" width="800"/>
+    <img src="https://private-user-images.githubusercontent.com/180983359/430695093-40cb0ab3-494a-4f92-96c9-633fbed543f1.PNG?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3NDM5MzQ5OTgsIm5iZiI6MTc0MzkzNDY5OCwicGF0aCI6Ii8xODA5ODMzNTkvNDMwNjk1MDkzLTQwY2IwYWIzLTQ5NGEtNGY5Mi05NmM5LTYzM2ZiZWQ1NDNmMS5QTkc_WC1BbXotQWxnb3JpdGhtPUFXUzQtSE1BQy1TSEEyNTYmWC1BbXotQ3JlZGVudGlhbD1BS0lBVkNPRFlMU0E1M1BRSzRaQSUyRjIwMjUwNDA2JTJGdXMtZWFzdC0xJTJGczMlMkZhd3M0X3JlcXVlc3QmWC1BbXotRGF0ZT0yMDI1MDQwNlQxMDE4MThaJlgtQW16LUV4cGlyZXM9MzAwJlgtQW16LVNpZ25hdHVyZT0xNTAzZjQ3YTIwMGQ4M2RjYTg1YzZhYjdkYWM4NGUzZmIzNmQxMGExMzRkZGRjZDRlMmQ1Zjc4N2E5ZGJhM2YyJlgtQW16LVNpZ25lZEhlYWRlcnM9aG9zdCJ9.ASF0tASR18wMyYXhOUxQkp-T9u5-AQHnF1tmYoLObNk" alt="Opis obrazka" width="800"/>
   </p>
 Następnie na maszynie nr 1 zamknięto usługę SSH (port 22) oraz otworzono usługi FTP (port 21) i HTTP (port 80). Na maszynie nr 2 otworzono usługi SSH (port 22) i HTTP (port 80)
 
