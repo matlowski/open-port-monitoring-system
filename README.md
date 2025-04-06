@@ -11,8 +11,7 @@ The user can configure time intervals at which they will receive email notificat
    SMPT_PASSWORD = ''   # temporary app password generated in Gmail 
    ADMIN_EMAIL = '' ->  # email address to which the scan comparison result is sent
    ```
-   A guide showing how to enable two-step verification will be helpful for generating the temporary app password: \
-   https://support.google.com/accounts/answer/185839?hl=pl&co=GENIE.Platform%3DDesktop
+   A guide showing how to enable two-step verification will be helpful for generating [the temporary app password](https://support.google.com/accounts/answer/185839?hl=pl&co=GENIE.Platform%3DDesktop)
 3. Uzupełnij adresy IP (linia nr 15), które chcesz przeskanować (hosty muszą się znajdować w tej samej podsieci), następnie zapisz zmiany i zamknij plik.
 4. Wykonaj w terminalu skan bazowy (reference.xml) za pomocą komendy:
    $ nmap -oX reference.xml <IP_address_1> <IP_address_2> ...
