@@ -5,21 +5,25 @@ The script enables monitoring of any number of hosts located within the same sub
 The user can configure time intervals at which they will receive email notifications about any detected changes in port states. 
 
 ## HOW TO USE IT?
-1. Pobierz skrypt na swoją maszynę oraz otwórz go w dowolnym edytorze (np. nano) i uzupełnij zmienne globalne, które znajdują się na samej górze pliku:
-   SMPT_EMAIL = '' -> adres email, z którego wysyłany jest wynik porównania skanów
+1. Download the script to your machine and open it in any text editor (e.g., nano). Then fill in the global variables located at the top of the file: \
+   
+   `SMPT_EMAIL = '' -> adres email, z którego wysyłany jest wynik porównania skanów
    SMPT_PASSWORD = '' -> tymczasowe hasło do aplikacji generowane w gmail'u
-   ADMIN_EMAIL = '' -> adres email, na który zostanie wysłany wynik porównania skanów
+   ADMIN_EMAIL = '' -> adres email, na który zostanie wysłany wynik porównania skanów`
+   
    Pomocny przy generowaniu tymczasowego hasła będzie poradnik pokazujący w jaki sposób włączyć uwierzytelnienie dwuetapowe:
    https://support.google.com/accounts/answer/185839?hl=pl&co=GENIE.Platform%3DDesktop
-2. Uzupełnij adresy IP (linia nr 15), które chcesz przeskanować (hosty muszą się znajdować w tej samej podsieci), następnie zapisz zmiany i zamknij plik.
-3. Wykonaj w terminalu skan bazowy (reference.xml) za pomocą komendy:
+3. Uzupełnij adresy IP (linia nr 15), które chcesz przeskanować (hosty muszą się znajdować w tej samej podsieci), następnie zapisz zmiany i zamknij plik.
+4. Wykonaj w terminalu skan bazowy (reference.xml) za pomocą komendy:
    $ nmap -oX reference.xml <IP_address_1> <IP_address_2> ...
      Adresy muszą być zgodne z adresami wpisanymi do skryptu.
      Dodatkowo pliki 'main.py' i 'reference.xml' powinny znajdować się w tym samym miejscu w systemie plików maszyny, np. na pulpicie
-4. Otwórz narzędzie 'Cron' w celu wyznaczenia interwałów czasowych otrzymywanych powiadomień, za pomocą komendy:
+5. Otwórz narzędzie 'Cron' w celu wyznaczenia interwałów czasowych otrzymywanych powiadomień, za pomocą komendy:
    $ crontab -e   
    Pomocny przy tym zadaniu na pewno będzie link:
    https://crontab.guru/
+
+
 
 *** PRZYKŁADOWA KONFIGURACJA I EFEKTY
 W celu zademonstrowania działania skryptu utworzono dwie maszyny wirtuale z zainstalowanym systemem operacyjnym Kali Linux oraz umieszczono je w tej samej sieci NAT o adresie 10.0.2.0/24:
