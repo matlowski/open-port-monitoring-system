@@ -47,6 +47,6 @@ After that, on machine #1, the SSH service (port 22) was shut down and FTP (port
 
 Email output received:  
 <p align="left">
-  <img src="images/scan_result.PNG" alt="Opis obrazka" width="600"/>
+  <img src="images/scan_result.PNG" alt="Opis obrazka" width="400"/>
 </p>
 
